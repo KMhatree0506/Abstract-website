@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+}
+.container{
+    height: 200vh;
+    
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+   height: 5%;
+    background-color: black;
+    position: relative;
+}
+.left img{
+    width: 120px;
+    position: relative;
+    left: 100px;
+}
+.left p{
+    position: absolute;
+  display: inline;
+    color: white;
+    font-size: 25px;
+    left: 230px;
+    top: 33px;
+    
+}
+.right{
+    position: absolute;
+    right: 100px;
+}
+.right button{
+    font-size:25px;
+    border-radius: 5px;
+}
+.right #submit{
+    background-color: #191A1B;
+    border: 1px solid white;  
+    color: #FFFFFF;
+    padding: 6px 22px;
+    margin: 0px 0px 0px 16px;
+}
+.right #signin{
+    background-color: #4C5FD5;
+    color: #FFFFFF;
+    border: none;
+
+    padding: 6px 32px;
+    margin: 0px 0px 0px 16px;
+}
+.top{
+    display: flex;
+    height: 20%;
+    background-color: #dadbf1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.top h1{
+    position: absolute;
+    font-weight: lighter;
+    top: 100px;
+    font-size: 80px;
+}
+.top input{
+    border: 1px solid black;
+    position: absolute;
+    top: 200px;
+    width: 800px;
+    height: 60px;
+
+}
+.main{
+    height: 55%;
+    display: flex;
+ 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 200px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.one{
+    
+    position: relative;
+    width: 50%;
+    /* height: auto; */
+    /* background-color: red; */
+    
+}
+.image img{
+    width: 100px;
+    position: relative;
+   
+}  
+.one .text{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+   
+}
+.text h1{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer{
+    display: grid;
+    background-color: black;
+    height: 20%;
+    grid-template-columns: repeat(5,1fr);
+    color: white;
+}
+.items{
+    text-align: left;
+    /* border: 1px solid white; */
+    margin: 20px;
+    margin: 50px 0px 0px 100px;
+   
+}
+.items h1,h3{
+    color: white;
+    
+}
+.items a{
+   
+    display: block;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width) {
+    .main{
+        height: auto;
+    }
+}
